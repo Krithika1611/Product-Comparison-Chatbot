@@ -35,10 +35,10 @@ SUPABASE_KEY = "your_supabase_service_role_key"
 ## Run the Application
 
 Use command-line to run:
-"""bash
+\`\`\`bash
 cd product-comparison-frontend
 npm run dev
-"""
+\`\`\`
 
 The script will output a product comparison table and a summary in plain text.
 
