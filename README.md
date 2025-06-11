@@ -35,11 +35,10 @@ SUPABASE_KEY = "your_supabase_service_role_key"
 ## Run the Application
 
 Use command-line to run:
-\`\`\`bash
+```bash
 cd product-comparison-frontend
 npm run dev
-\`\`\`
-
+```
 The script will output a product comparison table and a summary in plain text.
 
 ## Sample Output
@@ -60,7 +59,7 @@ product-comparison-frontend → Frontend folder
 - Works even if Supabase or Gemini fail (mock fallback used)  
 - Change table fields/aspects inside the `comparison_prompt`  
 - Secure API keys using .env (optional)
-
+- This project is not for distribution purposes
 ## License
 
 MIT License
