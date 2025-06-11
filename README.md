@@ -35,8 +35,10 @@ SUPABASE_KEY = "your_supabase_service_role_key"
 ## Run the Application
 
 Use command-line to run:
-
-echo "{\"product\": \"iPhone 12 vs iPhone 13\", \"chat_history\": []}" | python app.py
+"""bash
+cd product-comparison-frontend
+npm run dev
+"""
 
 The script will output a product comparison table and a summary in plain text.
 
@@ -44,6 +46,7 @@ The script will output a product comparison table and a summary in plain text.
 
 ![Screenshot 2025-04-16 193923](https://github.com/user-attachments/assets/ae0806e4-b396-43bf-bb92-4f11138b1c03)
 
+![image](https://github.com/user-attachments/assets/3e66d33e-2cf6-46d6-b537-f9737a9baf55)
 
 ## Project Structure
 
