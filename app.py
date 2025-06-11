@@ -12,14 +12,11 @@ import json
 import datetime
 import sys
 
-# Initialize API keys directly in the file
-SERPAPI_API_KEY = "71583112ef03d6abcc0a031179ade44d2d8f0f293b24c096420f38fb882d95b3"
-GROQ_API_KEY = "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"
-GOOGLE_API_KEY = "AIzaSyAODV5p5orQVYpxNGKHflDa6JmbZLYersE" 
-
-# Supabase credentials
-SUPABASE_URL = "https://usuhebtjkuodeyprgkzh.supabase.co"  
-SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InVzdWhlYnRqa3VvZGV5cHJna3poIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDQxMzM3NTIsImV4cCI6MjA1OTcwOTc1Mn0.8JQZIpu3uab9UW1BVIOMfA_bxSMClViKqk9vyXVQWOQ"  # Your Supabase service role key
+SERPAPI_API_KEY = "your_serpapi_key"
+GROQ_API_KEY = "your_groq_key"
+GOOGLE_API_KEY = "your_google_api_key"
+SUPABASE_URL = "your_supabase_url"
+SUPABASE_KEY = "your_supabase_service_key" # Your Supabase service role key
 
 # Define constants
 USER_CONTEXT_PATH = "user_context.json"
